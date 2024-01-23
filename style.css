@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 50px;
+    align-items: center;
+}
+
+.navbar a{
+    color: black;
+}
+
+.navbar .navlinks ul{
+    display: flex;
+}
+
+.navbar .navlinks ul li{
+    margin-left: 95px;
+}
+
+.navbar .logo{
+    font-size: 3em;
+}
+
