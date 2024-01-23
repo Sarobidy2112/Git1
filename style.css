@@ -5,6 +5,11 @@
     list-style: none;
 }
 
+body{
+    width: 1366px;
+    height: 100%;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -30,3 +35,22 @@
     font-size: 3em;
 }
 
+h1{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.cl1 {
+    width: 550px;
+    float: left;
+    text-align: center;
+}
+
+aside{
+    margin-left: 650px;
+    margin-top: 200px;
+    text-align: center;
+}
